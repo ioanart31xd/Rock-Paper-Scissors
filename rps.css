@@ -1,0 +1,128 @@
+body{
+    background-color: #e6ccb2;
+}
+
+
+h1{
+    font-family: 'Schoolbell', cursive;
+    text-align:center;
+    font-size: 50px;
+}
+
+
+h2{
+    font-family: 'Schoolbell', cursive;
+    padding:20px;
+}
+
+.flex-container{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:10px;
+  
+}
+
+.choices{
+    width:150px;
+    height:150px;
+    
+}
+
+button:hover{
+   outline:none;
+   transform: scale(1.2);
+   
+}
+
+.rock{
+background-image: url("rock.png");
+background-size:cover;
+background-color: #e6ccb2;
+border-style: none;
+outline:none;
+border: 4px solid white;
+    
+}
+
+
+.papyrus{
+    background-image: url("papyrus.png");
+    background-size:cover;
+    background-color: #e6ccb2;
+    border-style: none;
+    outline:none;
+    border: 4px solid white;
+  
+}
+
+.scissors{
+    background-image: url("scissors.png");
+    background-size:cover;
+    background-color: #e6ccb2;
+    border-style: none;
+    outline:none;
+    border: 4px solid white;
+   
+}
+
+.rps{
+    padding:20px;
+    border: 4px solid white;
+    border-radius:50%;
+    background-color: black;
+    margin:10px;
+}
+
+
+.game-wrap{ 
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.source{
+    text-align: center;
+    font-family: 'Schoolbell', cursive;
+
+}
+
+a:link{
+text-decoration:none;
+color:black;
+}
+
+a:visited{
+    text-decoration:none;
+    color:black;
+}
+
+a:hover{
+    text-decoration:none;
+    color:black;
+}
+
+
+a:active{
+    text-decoration:none;
+    color:black;
+}
+
+@media screen and (max-width: 600px) {
+ .choices{
+     height:100px;
+     width:100px;
+ }
+
+ .rps{
+     padding:7px;
+ }
+
+ .winner{
+     text-align:center;
+     height:130px;
+
+ }
+}
